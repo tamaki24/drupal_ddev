@@ -1,0 +1,22 @@
+uuid: 3932d6a0-cf2b-43b1-87a0-e4f172fe4fd2
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - claro
+_core:
+  default_config_hash: NjcxOBrPOiK5-38t56DwFBDVY4yer7YSlbRWXFuHe7A
+id: claro_breadcrumbs
+theme: claro
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: パンくず
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,15 @@
+uuid: adb3ceda-8ab4-4a37-ab70-e0dce63cd158
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 97tvtzGOa8_flb22CzSjgtm_YkiGMHvEBO-6q2K9V_U
+id: node_search
+label: コンテンツ
+path: node
+weight: -10
+plugin: node_search
+configuration:
+  rankings: {  }

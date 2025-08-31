@@ -65,3 +65,26 @@ php_version: "X.X"
 ```
 ddev restart
 ```
+
+## Language settings
+ConfigurationにLanguagesなどの項目がない場合
+```
+# モジュールの有効化
+ddev drush en language content_translation config_translation -y
+```
+
+## 設定（config/sync）の保存先を変更
+### settings.php 末尾に追記
+```
+$settings['config_sync_directory'] = '../config/sync';
+```
+### ディレクトリの作成
+```
+mkdir -p config/sync
+```
+
+### drushで設定
+```
+ddev drush config:export
+```
+
