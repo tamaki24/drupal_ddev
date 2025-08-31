@@ -38,6 +38,21 @@ ddev composer require drush/drush
 ddev launch
 ```
 
+# After Clone
+```
+# 起動
+ddev start
+
+# 依存パッケージのインストール
+ddev composer install
+
+# Drupalのセットアップ（初回）
+ddev drush site:install --account-name=admin --account-pass=admin
+
+# 起動
+ddev launch
+```
+
 # etc
 
 ## PHP Version
